@@ -1,0 +1,22 @@
+A LITTLE BIT OF HISTORY
+SQL was invented in 1970s.
+At first it calls SEQL (Structured English Query Language), but then became SQL.
+
+COMMENTING IN SQL
+In the code window, you can use comments to save different options for queries or explanations. Comments are enclosed in / * and * /:
+
+/*
+comment
+*/
+
+MY TEMPLATES
+SELECT FLOOR(RAND()*365)  /*generates random number from 1 to 365*/
+DATE_ADD('2020-02-02', INTERVAL 45 DAY) /*returns 18 march 2020*/
+SELECT DATE_ADD('2020-01-01', INTERVAL (FLOOR(RAND()*365)) DAY) /*returns a random date of 2020*/
+IF(SUM(amount) IS NULL, 0, SUM(amount)) AS whatever /*returns 0 instead of None*/
+
+
+
+
+
+
